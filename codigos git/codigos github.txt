@@ -2,11 +2,11 @@ localmente
 
 git init
 git add .
-git commit -m "descrição"
+git commit -m "descriÃ§Ã£o"
 git status  
 
 
-enviando aquivo pro repositorio criado
+enviando aquivo pro repositorio criado:
 
 echo "# ultimo" >> README.md
 git init
