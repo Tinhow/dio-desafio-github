@@ -1,0 +1,40 @@
+.flexconteiner{
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+}
+
+.item{
+    background-color: orange;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.sh1{
+    flex-shrink: 1;  
+}
+
+.fg1{
+    flex-grow: 1;
+}
+
+.sh{
+    flex-shrink: 0; 
+    flex-basis: 200px; 
+}
+
+.sh2{
+    flex-shrink: 2; 
+    flex-basis: 100px;
+}
+
+.sh3{
+    flex-shrink: 3;
+    flex-basis: 100px;
+ 
+}
+
+.fg{
+    flex-grow: 0;
+}
